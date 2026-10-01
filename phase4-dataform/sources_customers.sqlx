@@ -1,0 +1,6 @@
+config {
+    type: "declaration",
+    database: "project-3019d9bd-acee-4029-ab1",
+    schema: "retail",
+    name: "customers"
+}
