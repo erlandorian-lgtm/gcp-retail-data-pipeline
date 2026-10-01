@@ -30,9 +30,18 @@ This phase contains the SQL transformations and analytical models required to pr
 
 ### Phase 5 — Lakehouse & Apache Iceberg
 
-Apache Iceberg is introduced as the lakehouse table format, with the underlying data stored in Google Cloud Storage and managed through the BigLake/Iceberg catalog.
+The final phase was designed to introduce a lakehouse architecture using Apache Iceberg, with the underlying table data stored in Google Cloud Storage and managed through BigLake.
 
-This phase demonstrates how an open table format can be incorporated into a modern cloud data architecture alongside BigQuery.
+Due to resource/quota limitations on the Google Cloud trial/free account, the complete Iceberg lakehouse implementation could not be executed and validated end-to-end.
+
+The project setup and architecture were explored, including:
+
+* Google Cloud Storage lakehouse bucket
+* BigLake Iceberg catalog
+* Iceberg table storage location
+* Lakehouse architecture and integration with the existing pipeline
+
+The implementation is therefore documented as a **planned/partially implemented phase**, rather than a fully completed production workflow.
 
 ## Architecture
 
